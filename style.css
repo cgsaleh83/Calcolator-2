@@ -1,0 +1,60 @@
+table{
+    width: 310px;
+    margin: 50px auto;
+    background: #83ddcc;
+    border: none;
+    padding: 0px 20px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.heading{
+    color: #fff;
+    font-size: 130%;
+    text-align: center;
+}
+#input, #ansower{
+    width: 260px;
+    height: 50px;
+    font-size: 210%;
+    text-align: right;
+    border: none;
+}
+#input{
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 2px 2px 2px #000;
+    color: #1b1916;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    -ms-border-radius: 5px 5px 0px 0px;
+    -o-border-radius: 5px 5px 0px 0px;
+}
+
+#ansower{
+    border-radius:0px 0px 5px 5px ;
+    box-shadow: 2px 2px 2px #000000;
+    -webkit-border-radius:0px 0px 5px 5px ;
+    -moz-border-radius:0px 0px 5px 5px ;
+    -ms-border-radius:0px 0px 5px 5px ;
+    -o-border-radius:0px 0px 5px 5px ;
+}
+input[type=button]{
+    height: 60px;
+    width: 60px;
+    margin: 1px;
+    font-size: 130%;
+    border-radius: 8px;
+    border: none;
+    background: #fff;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+input[type=button]:hover{
+    background: #D9DADF;
+    cursor: pointer;
+    outline: none;
+}
